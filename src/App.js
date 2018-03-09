@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Codelab from './Codelab';
 class App extends Component {
   render() {
     return (
@@ -14,9 +14,11 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <p>Reload test</p>
+        <Codelab name={this.props.name} number={this.props.number}>{this.props.children}</Codelab>
       </div>
     );
   }
 }
+
 
 export default App;
