@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Codelab from './Codelab';
-import Counter from './Counter';
-import Contact from './Contact';
+import Codelab from './components/Codelab';
+import Counter from './components/Counter';
+import Contact from './components/Contact';
 class App extends Component {
   render() {
     return (
